@@ -1,0 +1,147 @@
+body {
+    background-image: url(capitol.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.container {
+    text-align: center;
+}
+
+#site-name {
+    font-family: 'Cinzel', serif;
+}
+
+#input-senator.form-control,
+#input-rep.form-control {
+    width: 50%;
+    margin: auto;
+}
+
+#search-text-1,
+#search-text-2 {
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+
+#senator-button.btn.btn-primary,
+#rep-button.btn.btn-primary,
+#video-button.btn.btn-primary {
+    color: #e9ecef;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+    border-color: lightgray;
+}
+
+.jumbotron.jumbotron-fluid {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 130px;
+    width: 100%;
+}
+
+#first-container {
+    text-align: center;
+}
+
+.card {
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 0px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+#video-button-card.card {
+    width: 300px;
+    height: 165px;
+}
+
+#site-name {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+#second-container.container {
+    animation: fadein 5s;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#video-button-card.card,
+#info-card.card {
+    animation: fadein 5s;
+}
+
+#info-card.card {
+    margin-bottom: 130px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+#info-categories {
+    text-align: left;
+}
+
+.modal-content {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.modal-dialog {
+    width: 877px;
+    max-width: 877px;
+}
+
+.modal-body {
+    margin: 0 auto;
+}
+
+#youtube {
+    margin-bottom: 0px;
+}
